@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project One</title>
+
+    <!-- Fontawsome v4.7 Iconc Library Css File -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+
+    <!-- file code normalize css -->
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <!-- file code css -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;400;500;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Start Header -->
+
+        <div id="navbar" class="navbar">
+            <ul>
+
+                <li><a href="#landing" >Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">about</a></li>
+            </ul>
+        </div>
+    
+    <!-- End Header -->
+
+    <!-- Start Landing -->
+
+    <div class="landing"  id="landing">
+        <div class="intro-text">
+            <h1>Hello There</h1>
+            <p>
+                We are Leon - Super Creative & Minimal 
+                Agency  Web Template
+            </p>
+        </div>
+    </div>
+    <!-- End Landing -->
+
+    <!-- Start features -->
+    <div class="featuers">
+        <div class="container">
+            <div class="feat">
+                <i class="fa fa-magic fa-3x"></i>
+                <h3>Tell Us Your Idea</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut lab</p>
+              </div>
+              <div class="feat">
+                <i class="fa fa-gear fa-3x"></i>
+                <h3>We Will Do All The Work</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut lab</p>
+              </div>
+              <div class="feat">
+                <i class="fa fa-globe fa-3x"></i>
+                <h3>Your Product is Worldwide</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut lab</p>
+              </div>
+        </div>
+    </div>
+    <!-- End features -->
+
+    <!-- Start services -->
+    <div class="services" id="services">
+        <div class="container">
+            <h2 class="special-heading">services</h2>
+            <p>Don't be busy, be productive</p>
+        
+        <div class="services-content">
+            <div class="col">
+                <!-- Start Services -->
+                <div class="srv">
+                    <i class="fa fa-grav fa-2x"></i>
+                    <div class="text">
+                        <h3>Graphic Design</h3>
+                        <p>
+                            Graphic design is the process of visual 
+                            communication and problem-solving 
+                            using one or more of typography, 
+                            photography and illustration.
+                        </p>
+                    </div>
+                </div>
+                <div class="srv">
+                    <i class="fa fa-desktop fa-2x"></i>
+                    <div class="text">
+                        <h3>UI & UX</h3>
+                        <p>
+                            Process of enhancing user satisfaction 
+                            with a product by improving the 
+                            usability, accessibility, and pleasure 
+                            provided in the interaction.
+                        </p>
+                    </div>
+                </div>
+                <!-- End Services -->
+            </div>
+            <div class="col">
+                <!-- Start Services -->
+                <div class="srv">
+                    <i class="fa fa-weibo fa-2x"></i>
+                    <div class="text">
+                        <h3>Web Design</h3>
+                        <p>
+                            Web design encompasses many different 
+                            skills and disciplines in the production 
+                            and maintenance of websites.
+                        </p>
+                    </div>
+                </div>
+                <div class="srv">
+                    <i class="fa fa-deviantart fa-2x"></i>
+                    <div class="text">
+                        <h3>Web Development</h3>
+                        <p>
+                            Web development is a broad term for 
+                            the work involved in developing a web site 
+                            for the Internet or an intranet.
+                        </p>
+                    </div>
+                </div>
+                <!-- End Services -->
+            </div>
+            <div class="col">
+                <div class="image">
+                    <img src="images/services.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+    <!-- End services -->
+ <!-- Start Filters -->
+
+ <div id="myBtnContainer">
+    <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+    <button class="btn" onclick="filterSelection('cars')"> Cars</button>
+    <button class="btn" onclick="filterSelection('animals')"> Animals</button>
+    <button class="btn" onclick="filterSelection('fruits')"> Fruits</button>
+    <button class="btn" onclick="filterSelection('colors')"> Colors</button>
+  </div>
+  
+  <!-- The filterable elements. Note that some have multiple class names (this can be used if they belong to multiple categories) -->
+  <div class="container">
+    <div class="filterDiv cars">BMW</div>
+    <div class="filterDiv colors fruits">Orange</div>
+    <div class="filterDiv cars">Volvo</div>
+    <div class="filterDiv colors">Red</div>
+    <div class="filterDiv cars animals">Mustang</div>
+    <div class="filterDiv colors">Blue</div>
+    <div class="filterDiv animals">Cat</div>
+    <div class="filterDiv animals">Dog</div>
+    <div class="filterDiv fruits">Melon</div>
+    <div class="filterDiv fruits animals">Kiwi</div>
+    <div class="filterDiv fruits">Banana</div>
+    <div class="filterDiv fruits">Lemon</div>
+    <div class="filterDiv animals">Cow</div>
+  </div>
+    <!-- End Filters -->
+
+        <!-- Start About -->
+        <div class="about" id="about">
+            <div class="container">
+                <h2 class="special-heading">about</h2>
+                <p>Less is more work</p>
+                <div class="about-content">
+                    <div class="image">
+                        <img src="images/about.jpg" alt="">
+                    </div>
+                    <div class="text">
+                        <p>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam atque enim minus! Magni nisi commodi in porro illum iusto! Incidunt enim vero nesciunt quasi asperiores molestiae. Non molestias ipsum obcaecati?
+                        </p>
+                        <hr>
+                        <p>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam atque enim minus! Magni nisi commodi in porro illum iusto! Incidunt enim vero nesciunt quasi asperiores molestiae. Non molestias ipsum obcaecati?
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End About -->
+
+    <!-- file code main js -->
+    <script src="js/main.js"></script>
+</body>
+</html>
